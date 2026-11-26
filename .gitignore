@@ -1,0 +1,16 @@
+.obsidian/
+.vscode/*.local.json
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.pfx
+credentials.json
+secrets.json
+exports/
+* - aplikacja-do-nauki-jezykow.json
+reports/
+manual_tests/
+*.har
