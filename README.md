@@ -19,6 +19,9 @@ app or [contributing](contributing.md) to document a change.
 - [Feature specifications](features/README.md): user stories, expected behavior and implementation notes for each product area.
 - [Feature register](features/feature-register.md): numbered features with scope, cards, pull requests and releases.
 - [Release history](release-history.md): reconstructed milestones R01 to R11.
+- [API documentation](api.md): backend API entry points and lesson and section contracts.
+- [Testing](testing.md): where tests live today, the shared-staging warning and the pre-migration harness.
+- [Isolated local staging](local-staging.md): the pre-migration local stack for browser tests.
 - [Contributing](contributing.md): how to change the documentation and keep the register consistent.
 
 ## Publication plan

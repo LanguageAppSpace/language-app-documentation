@@ -16,7 +16,7 @@ LanguageApp is maintained as four independent repositories under the LanguageApp
 
 [language-app-tests](https://github.com/LanguageAppSpace/language-app-tests) is the planned home for shared browser and backend test suites. The migration is not complete: the existing suites still live in a pre-migration shared test workspace, and not all of its test files are committed. Do not assume a suite runs from the new repository yet.
 
-Test instructions: pending migration to language-app-tests
+Test instructions: pending migration to language-app-tests. See [Testing](testing.md) for where tests live today and what is awaiting migration.
 
 ### Documentation
 
@@ -61,7 +61,7 @@ The backend URL configuration exposes these application areas:
 | Statistics | `/stats/` | user statistics (`/stats/user-statistics/`); further reporting is planned, not implemented |
 | API schema | `/schema/`, `/swagger/`, `/redoc/` | generated API documentation |
 
-The interactive API documentation is served by the backend itself. When the backend runs locally, open `/swagger/` (for example `http://127.0.0.1:8000/swagger/`); the [backend README](https://github.com/LanguageAppSpace/backend-learning-platform/blob/main/README.md) describes how to start it. This repository does not yet include a written API reference.
+The interactive API documentation is served by the backend itself. When the backend runs locally, open `/swagger/` (for example `http://127.0.0.1:8000/swagger/`); the [backend README](https://github.com/LanguageAppSpace/backend-learning-platform/blob/main/README.md) describes how to start it. See [API documentation](api.md) for the lesson and section contracts.
 
 The core learning data model is `CustomUser -> Section -> Lesson -> PhrasePair`. A new user receives an `Other` section through the backend `post_save` signal. A lesson can also have no section, although the product flow generally assigns lessons to a section. Lessons can additionally carry user-scoped `Tag` records; this is implemented in the backend only, and frontend tag authoring and filtering are pending.
 
@@ -136,6 +136,8 @@ The exact API base URL and authentication behavior should be documented alongsid
 - [Frontend README](https://github.com/LanguageAppSpace/language-app-frontend/blob/develop/README.md)
 - [Backend README](https://github.com/LanguageAppSpace/backend-learning-platform/blob/main/README.md)
 - [Product map](product-map.md)
+- [API documentation](api.md)
+- [Testing](testing.md)
 - [Feature specifications](features/README.md)
 - [Feature register](features/feature-register.md)
 - [Release history](release-history.md)

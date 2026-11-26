@@ -35,5 +35,5 @@ Every feature page should answer:
 ## Conventions
 
 - Paths such as `language-app-frontend/src/...` and `backend-learning-platform/backend/...` are relative to the [frontend](https://github.com/LanguageAppSpace/language-app-frontend) and [backend](https://github.com/LanguageAppSpace/backend-learning-platform) repositories.
-- Test file paths (`test/...`) belong to the pre-migration test workspace. They are not available in [language-app-tests](https://github.com/LanguageAppSpace/language-app-tests) yet, and not all of them are committed anywhere. They record existing coverage; they are not runnable commands.
+- Test file paths (`test/...`) belong to the pre-migration test workspace. They are not available in [language-app-tests](https://github.com/LanguageAppSpace/language-app-tests) yet, and not all of them are committed anywhere. They record existing coverage; they are not runnable commands. See [Testing](../testing.md).
 - Pull request status is dated. For current status use the live lists for the [frontend](https://github.com/LanguageAppSpace/language-app-frontend/pulls) and [backend](https://github.com/LanguageAppSpace/backend-learning-platform/pulls).
