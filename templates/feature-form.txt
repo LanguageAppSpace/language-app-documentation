@@ -1,0 +1,40 @@
+# Copy this file, fill in every field, then run: python tools/add_feature.py <your-file>
+# Lines starting with # are ignored. Format is `key: value`. Keep each value on one line.
+# Do not use the | character in values (it breaks the register table).
+
+# --- Required ---
+# FE = frontend only, BE = backend only, FS = both delivered together
+scope:
+# Short feature name, for example: Lesson tags
+title:
+# Trello card numbers, for example: 122, 123 (or n/a)
+cards:
+# Commits and pull requests, for example: FE: `abc1234` (FE#57). BE: `def5678` (BE#21)
+delivered_by:
+# Merge date YYYY-MM-DD. If backend and frontend differ: 2026-11-10 BE, 2026-11-20 FE
+delivered:
+# Release ID, for example: R11
+release:
+# Spec page file name without .md, for example: lesson-authoring
+# A new page is created from templates/feature-page.md when it does not exist.
+spec:
+
+# --- Optional ---
+# Feature (user-visible) or Technical (CI/CD, tooling, refactoring)
+type: Feature
+# Known issues, QA findings, follow-ups
+notes:
+
+# --- Only when the release does not exist yet ---
+# For example: 2026-11-01 to 2026-12-31
+release_period:
+# For example: Tags and filters
+release_theme:
+
+# --- Only when a new spec page is created ---
+# For example: Lesson Tags
+spec_title:
+# As a learner, I want to ..., so that ...
+user_story:
+# What must happen on the happy path, one sentence
+happy_path:

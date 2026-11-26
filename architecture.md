@@ -1,6 +1,6 @@
 # Architecture
 
-LanguageApp is maintained as four independent repositories under the LanguageAppSpace organization. This page describes the technical structure; feature specifications, added in a later documentation pull request, describe behavior from a user's point of view.
+LanguageApp is maintained as four independent repositories under the LanguageAppSpace organization. This page describes the technical structure; [feature specifications](features/README.md) describe behavior from a user's point of view.
 
 ## Components
 
@@ -115,7 +115,7 @@ These cannot be confirmed from the repositories and are not described here: the 
 
 ## Source of truth
 
-- User-visible behavior: the feature specification pages and executable tests.
+- User-visible behavior: the [feature specifications](features/README.md), the [feature register](features/feature-register.md), and executable tests.
 - Runtime contracts: backend serializers/views, generated Swagger schema, and frontend API slices.
 - Product intent: the Trello export and private Miro board, with implementation status verified against code.
 - Visual design: the Miro board and the current frontend components.
@@ -136,3 +136,6 @@ The exact API base URL and authentication behavior should be documented alongsid
 - [Frontend README](https://github.com/LanguageAppSpace/language-app-frontend/blob/develop/README.md)
 - [Backend README](https://github.com/LanguageAppSpace/backend-learning-platform/blob/main/README.md)
 - [Product map](product-map.md)
+- [Feature specifications](features/README.md)
+- [Feature register](features/feature-register.md)
+- [Release history](release-history.md)
